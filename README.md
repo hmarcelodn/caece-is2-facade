@@ -4,3 +4,4 @@ El repositorio contiene una ejemplificación del patrón fachada utilizando Type
 El modo llegada prende las luces, televisión, apaga la cámara, quita el seguro de la puerta y finalmente la abre.
 El modo salida asegura la casa y apaga los dispositivos que no se utilizan. Adicionalmente pone a grabar la cámara de seguridad.
 
+![Screenshot](https://github.com/hmarcelodn/caece-is2-facade/blob/main/Facade.png)
