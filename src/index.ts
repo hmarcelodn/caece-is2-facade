@@ -10,5 +10,5 @@ const amazonEchoFacade = new AmazonEcho(
     new Television(), 
     new CamaraSeguridad()
 );
-amazonEchoFacade.apagarSalidaCasa();
-amazonEchoFacade.apagarLlegadaCasa();
+amazonEchoFacade.iniciarModoSalidaCasa();
+amazonEchoFacade.iniciarModoLlegadaCasa();

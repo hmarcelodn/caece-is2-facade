@@ -13,7 +13,7 @@ export class AmazonEcho {
         LOGGER.info('Amazon Echo');
     }
 
-    public apagarSalidaCasa = () => {
+    public iniciarModoSalidaCasa = () => {
         LOGGER.info('Iniciando Modo: Salida de Casa');
         this.puerta.cerrar();
         this.puerta.asegurar();
@@ -23,7 +23,7 @@ export class AmazonEcho {
         this.camaraSeguridad.grabar();
     }
 
-    public apagarLlegadaCasa = () => {
+    public iniciarModoLlegadaCasa = () => {
         LOGGER.info('Iniciando Modo: Llegada de Casa');
         this.camaraSeguridad.apagar();
         this.puerta.abrir();
